@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    
+}
+header{
+    background-color: #97afa3;
+    position: relative;
+}
+.logo{
+    width: 163px;
+    height: 81px;
+}
+.logo img{
+    max-width: 100%;
+}
+.logo a{
+    padding: 0 100px;
+}
+nav ul{
+    
+    margin-right: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    letter-spacing: .25em;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Lato;
+    color: #fafbfa;
+    transition: all 0.5s;
+}
+nav ul li a:hover{
+    color: #bacfc4;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+}
+a.home{
+    color: #bacfc4;
+}
+.hamburger{
+    position: absolute;
+    right: 10px;
+    top: 28px;
+    font-size: 40px;
+    display: none;
+    cursor: pointer;
+}
+.matamatic{
+    width: 100%;
+    height: calc(100vh-125px);
+    
+    
+}
+.matamatic img{
+    max-width: 100%;
+}
+section#about{
+    padding: 50px 0;
+}
+section#home{
+    
+    width: 100%;
+    height: 95vh;
+    background-image: url('../img/photo-1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    text-align: center;
+    color: #070707;
+    font-weight: 100;
+    font-size: 60px;
+    
+}
+.inventor{
+    text-align: center;
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33.5px;
+    color: #6b8778;
+}
+
+
+.all-text{
+    background-color: #f0f2f2;
+}
+.photo_2{
+    width: 500px;
+}
+.photo_2 img{
+    max-width: 100%;
+}
+.patents{
+    background-color: #f0f2f2;
+    padding: 40px;
+    width: 118%;
+    height: 889px;
+}
+.researcher{
+    font-family: 'Lato', sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 25px;
+}
+.academic{
+    width: 47% !important;
+}
+.papers{
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+.networks{
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+.also{
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+.his{
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+}
+.ores{
+    background-color: #97afa3;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 35px;
+    color: #fff;
+    transition: all 0.7s;
+}
+.ores:hover{
+    background-color: #a8bcb2;
+    color: #fff;
+}
+.more{
+    padding: 50px 0;
+}
+section#publications{
+    padding-bottom: 50px;
+}
+.logorifm{
+    width: 100%;
+}
+.logorifm img{
+    max-width: 100%;
+}
+section#speaking{
+    padding: 50px 0;
+}
+.publish{
+    padding: 40px;
+    background-color: #f0f2f2;
+    height: 300.36px;
+}
+.allow{
+    padding-bottom: 30px;
+}
+.other{
+    padding-bottom: 30px;
+    font-family: Lato;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+
+}
+.own{
+    background-color: #97afa3;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 35px;
+    color: #fff;
+    transition: all 0.7s;
+}
+.own:hover{
+    background-color: #a8bcb2;
+    color: #fff;
+}
+footer{
+    margin-top: 100px;
+    height: 70vh;
+    background-color: #64646d;
+}
+.connect_1{
+    margin-top: 60px;
+}
+.connect_2{
+    margin-top: 65px;
+}
+.connect_3{
+    margin-top: 100px;
+}
+.with{
+    color: #bbc4d1;
+    font-size: 18px;
+}
+.linkedin{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255,255,255,.3);
+}
+.linkedin:hover{
+    color: #bbc4d1;
+}
+.twitter{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255,255,255,.3);
+}
+.use{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255,255,255,.3);
+    transition: all 0.7s;
+}
+.use:hover{
+    color: #bbc4d1;
+}
+.term{
+    font-size: 17px;
+}
+.privacy{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 0.05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255,255,255,.3);
+    transition: all 0.7s;
+}
+.privacy:hover{
+    color: #bbc4d1;
+}
+.term span{
+    color: #bbc4d1;
+    display: inline-block;
+    
+}
+.twitter:hover{
+    color: #bbc4d1;
+}
+.designed{
+    padding: 13px 26px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.7s;
+}
+.designed:hover{
+    background-color: #fff;
+    color:#bbc4d1;
+}
+
+@media (max-width: 1015.98px) {
+    .hamburger{
+        display: block;
+        
+    }
+    nav ul{
+        position: fixed;
+        top: 125px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(105, 105, 218);
+        height: 60vh;
+        display: none;
+    }
+    nav ul li{
+        display: block;
+        margin: 5px 0;
+    }
+    nav .list.active{
+        display: block;
+    }
+}
+@media (max-width: 992px) {
+    .patents{
+        width: 500px;
+    }
+ }
+ @media (max-width: 1200px) {
+     .publish{
+         padding: 9px;
+         height: 253.36px;
+     }
+ }
+ @media (max-width: 992px) {
+    .publish{
+        width: 501px;
+    }
+}
+
